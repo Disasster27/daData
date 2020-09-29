@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+#text {
+    width: 356px;
+    height: 30px;
+    padding-left: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#btn {
+    height: 30px;
+}
+
+.text-center {
+    display: flex;
+}
+.autocomplete {
+    max-width: 356px;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+.autocomplete p {
+    /* height: 20px; */
+    /* box-sizing: border-box; */
+    padding: 5px;
+    /* display: inline-block; */
+
+}
+p:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+.active {
+    background-color: honeydew;
+}
